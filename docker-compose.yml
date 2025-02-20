@@ -1,0 +1,8 @@
+version: '3'
+services:
+  sse-proxy:
+    build: ./nginx
+    ports:
+      - "8888:8888"
+    restart: unless-stopped
+    container_name: volcengine-proxy
