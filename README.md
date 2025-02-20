@@ -20,7 +20,7 @@ git clone https://github.com/aardpro/volcengine-proxy.git
 - 进入项目目录
 
 ```bash
-cd sse-proxy
+cd volcengine-proxy
 ```
 
 - 构建并运行容器

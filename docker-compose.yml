@@ -1,6 +1,6 @@
 version: '3'
 services:
-  sse-proxy:
+  volcengine-proxy:
     build: ./nginx
     ports:
       - "8888:8888"
